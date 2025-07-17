@@ -1,0 +1,11 @@
+signal quality - 21
+
+sim status - ready(sim is working)
+
+network operator - error(expected output is operator selection mode, format of operator name, operator name eg: jio, airtel , access technology Eg: lte,gsm,5g.
+
+
+
+
+
+

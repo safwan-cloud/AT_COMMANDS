@@ -1,0 +1,3 @@
+all the commands except AT+CGMR was able to run on the emulator
+since there was no sim in the emulator setup I couldn't receive any message or verify if the SMS that I sent we successfully received.
+it could be resolved by running this commands on a real module.

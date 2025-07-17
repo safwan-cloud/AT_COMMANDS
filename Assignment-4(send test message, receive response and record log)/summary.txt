@@ -1,0 +1,3 @@
+Receive sms 
+
+expected output : +CMTI: "SM",1

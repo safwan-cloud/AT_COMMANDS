@@ -1,0 +1,57 @@
+AT+CMEE=1 not supported in the emulator
+
+expected output:
+
+Step
+
+Command
+
+Response
+
+Manual Interpretation
+
+1
+
+AT+CMEE=2
+
+OK
+
+Enables verbose error messages
+
+2
+
+AT+XYZ
+
++CME ERROR: operation not supported
+
+Command is unknown to modem
+
+3
+
+AT+CMGF=3
+
++CME ERROR: invalid input value
+
+CMGF accepts only 0 (PDU) or 1 (Text)
+
+4
+
+AT+CPIN? (no SIM)
+
++CME ERROR: SIM not inserted
+
+SIM card is missing
+
+5
+
+AT+CMGS="123" + Ctrl+Z
+
++CMS ERROR: 500
+
+Invalid SMS send — either malformed or blocked
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+there are 4 types of syntax in AT command:
+
+read: it is used for getting modem configuration setting. it has a “?”symbol at the end.
+
+write/set: it is used for setting the modem configuration setting, it has a “=” symbol at the end .
+
+execute: it is used to trigger modem operation, it has no extra symbol at the end.
+
+test: it used to check whether a modem supports the named command, it has a “=?” symbol at the end.
+
+commands used for testing and grouping are: AT+CSQ, AT+COPS, AT+CREG, AT+CGDCONT, AT+CNMI.
+
+
+
+
+
+
